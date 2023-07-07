@@ -1,14 +1,13 @@
 {
   "dependencies": {
     "com.singularitygroup.hotreload": {
-      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.1",
+      "version": "file:com.singularitygroup.hotreload",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
-      },
-      "hash": "69058a15659c048f390afb230a04a21f67bd00f0"
+      }
     },
     "com.unity.burst": {
       "version": "1.8.7",
