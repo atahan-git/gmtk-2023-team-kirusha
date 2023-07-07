@@ -12,6 +12,7 @@ public class StateMachine : MonoBehaviour
         if (nextState != null)
         {
             SetState(nextState);
+            nextState = null;
         }
 
         if(currentState != null) 
@@ -30,7 +31,7 @@ public class StateMachine : MonoBehaviour
 
     public void SetNextState(State _nextState)
     {
-        if (nextState != null)
+        if (_nextState != null)
         {
             nextState = _nextState; 
         }
