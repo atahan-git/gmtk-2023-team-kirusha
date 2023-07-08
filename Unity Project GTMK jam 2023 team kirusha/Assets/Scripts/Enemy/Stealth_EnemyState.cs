@@ -5,10 +5,6 @@ using UnityEngine;
 public class Stealth_EnemyState : TemplateEnemyState
 {
 
-    public override void OnEnter(StateMachine _stateMachine)
-    {
-        base.OnEnter(_stateMachine);
-    }
 
     public override void OnFixedUpdate()
     {

@@ -15,8 +15,8 @@ public class EnemyController : MonoBehaviour
     }
     void Start()
     {
-        //enemyStMachine.SetNextState(new Idle_EnemyState());
-        enemyStMachine.SetNextState(new Stealth_EnemyState());
+        enemyStMachine.SetNextState(new Idle_EnemyState());
+        //enemyStMachine.SetNextState(new Stealth_EnemyState());
     }
 
 
