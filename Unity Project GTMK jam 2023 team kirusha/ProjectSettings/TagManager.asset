@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: invisible spy
+    uniqueID: 2625630897
+    locked: 0
+  - name: spy 2
+    uniqueID: 2106989339
+    locked: 0
